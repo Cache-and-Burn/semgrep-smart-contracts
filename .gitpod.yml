@@ -4,7 +4,7 @@
 
 tasks:
 - name: install dependencies
-  init: |
+  command: |
     pip install slither-analyzer
     pip install solc-select
     pip install semgrep
